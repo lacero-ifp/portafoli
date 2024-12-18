@@ -1,0 +1,210 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body{
+    height: 100%;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+nav li{
+    display: inline-block;
+    margin: 20px;
+}
+
+ul li{
+    color: white;
+}
+
+nav{
+    position: fixed;
+    height: 60px;
+    width: 480px;
+    border-radius: 0 0 40px 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5000;
+    background: black;
+}
+
+.p1 h1 {
+    padding-top: 100px;
+    text-align: center;
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: #56828C;
+}
+
+h1 {
+    text-align: center;
+    position: absolute;
+    display: block;
+    font-size: 50px;
+    color: black;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.pagina {
+    position: relative;
+    height: 100%;
+}
+
+.p1 {
+    background: linear-gradient(-45deg, #dedede, #ffffff, #dedede);
+    background-size: 400% 400%;
+    animation: degradat 10s ease infinite;
+    height: 100vh; 
+}
+
+.p2 {
+    background: linear-gradient(-45deg, #cbe3e9, #56828C, #484848);
+    background-size: 400% 400%;
+    animation: degradat 10s ease infinite;
+    height: 1300px; 
+}
+
+.p3 {
+    background: linear-gradient(-45deg, #dedede, #ffffff, #dedede);
+    background-size: 400% 400%;
+    animation: degradat 15s ease infinite;
+    height: 100vh;
+}
+
+@keyframes degradat {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+.p2 ul{
+    width: 1300px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.p2 li{
+    display: block;
+    width: 500px;
+    height: 225px;
+    border-radius: 20px;
+    float: left;
+    text-align: center;
+    line-height: 225px;
+    color: #ffffff;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.607);
+    font-size: 30px;
+    margin: 30px;
+    font-weight: 600;
+    transition: 2s;
+}
+
+li:hover{
+    animation: 1s 2s rebotar linear 3;
+    color: #56828C;
+}
+
+@keyframes rebotar {
+    0%{
+        transform: translateY(0px);
+    }
+
+    25%{
+        transform: translateY(10px);
+    }
+
+    50%{
+        transform: translateY(0px);
+    }
+
+    75%{
+        transform: translateY(-10px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+/*--------------------------------*/
+
+
+.Calendari{
+    background-image: url(../img/Calendari.jpg);
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-position: -95px -100px;
+    -webkit-filter:grayscale(100%);
+}
+
+.Feedly{
+    background-image: url(../img/Feedly.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: -50px;
+    -webkit-filter:grayscale(100%);
+}
+
+.Flotacions{
+    background-image: url(../img/Flotacions.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    -webkit-filter:grayscale(100%);
+}
+
+.Escacs{
+    background-image: url(../img/Escacs.jpg);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position-y: -60px;
+    -webkit-filter:grayscale(100%);
+}
+
+.Watchmen{
+    background-image: url(../img/Watchmen.jpeg);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position-y: -35px;
+    -webkit-filter:grayscale(100%);
+}
+
+.Ifpagram{
+    background-image: url(../img/Ifpagram.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: -20px;
+    -webkit-filter:grayscale(100%);
+}
+
+.Floreta{
+    background-image: url(../img/Floreta.jpg);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position-y: -80px;
+    -webkit-filter:grayscale(100%);
+
+}
+
+.Careta{
+    background-image: url(../img/Careta.jpg);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position-x: -50px;
+    -webkit-filter:grayscale(100%);
+}
