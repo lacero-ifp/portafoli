@@ -1,0 +1,215 @@
+body {
+    font-family: roboto Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 166px;
+}
+
+
+nav {
+    height: 180px;
+}
+
+
+.contenidor {
+    width: 1716px;
+    margin:0 auto;
+    overflow:hidden;
+    text-align: center;
+}
+
+
+.entrada {
+    width: 536px;
+    height: 620px;
+    margin: 18px;
+    float:left;
+}
+
+
+.cercle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: maroon;
+    display: inline-block;
+    margin: 28px;
+    background-image: url(../img/images/perfil.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 10px;
+    border: solid 5px white;
+    box-shadow: 0px 0px 10px maroon;
+    opacity: 80%;
+}
+
+.cercle::after{
+    content:"+";
+    display: block;
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color:white;
+    font-size: 28px;
+    border: solid 5px white;
+    position: relative;
+    top: 55px;
+    left: 60px;
+}
+
+img {
+    width: 536px;
+    height: 536px;
+}
+
+
+.reaccions {
+    height: 84px;
+    overflow: hidden;
+}
+
+
+.cercle:hover {
+    opacity: 100%;
+}
+
+/*-----------------elements article--------------*/
+
+.fotoautor {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-image: url(../img/images/perfil.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin: 10px;
+    border: solid 5px white;
+    box-shadow: 0px 0px 10px maroon;
+    float: left;
+}
+
+
+.autor {
+    width: 268px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.moment{
+    width: 268px;
+    color: gainsboro;
+    font-size: 18px;
+}
+
+
+.esquerra{
+    width: 50%;
+    margin: 0;
+    float:left;
+}
+
+
+.dreta {
+    width: 50%;
+    margin: 0;
+    float: right;
+}
+
+
+.comentari {
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 22px;
+    float: left;
+}
+
+
+.like {
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+
+.mes {
+    width: 40px;
+    height: 40px;
+    float: left;
+    line-height: 35px;
+    font-weight: 700;
+}
+
+/*----------------------elements header*/
+.home{
+    width: 250px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-image: url(../img/images/ifpagram_01.jpg);
+    margin: 50px 0 0 0;
+    display: inline-block;
+}
+
+.menu{
+    width: 208px;
+    height: 39px;
+    margin: 50px 470px 0 470px;
+    display: inline-block;
+}
+
+    .menu li{
+        width: 32px;
+        height: 40px;
+        margin: 3px 8px;
+        display: inline-block;
+        background-image: url(../img/images/ifpagram_02.jpg);
+    }
+
+    .menu .inici{
+        background-position: -6px -2px;
+    }
+
+    .menu .cerca{
+        background-position: -90px -2px;
+    }
+
+    .menu .reels{
+        background-position: -174px -2px;
+    }
+
+    .menu .favorits{
+        background-position: -258px -2px;
+    }
+
+.perfil{
+    width: 162px;
+    height: 84px;
+    margin: 50px 0 0 0;
+    display: inline-block;
+}
+
+.perfil li{
+    width: 50px;
+    height: 60px;
+    margin: 3px 8px;
+    display: inline-block;
+    background-image: url(../img/images/ifpagram_13.jpg);
+    background-repeat: no-repeat;
+}
+
+.perfil .missatges{
+    background-position: -15px -10px;
+}
+
+.perfil .compta{
+    background-position: -90px -10px;
+}
+
